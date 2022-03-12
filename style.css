@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #05b3a4;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+
+*:before,
+
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*p {*/
+/*    margin: 0 0 10px;*/
+/*}*/
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position:absolute;
+}
+/*.header__inner {*/
+/*    display:flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 35px 0;*/
+
+/*}*/
+
+.header__logo{
+   height: 100px;
+
+}
+
+/* Intro
+===================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+
+    background: #31344e url("img/4.jpg") center no-repeat;
+    /*
+    Если не работает запись выше, используйте эту:
+    background: #31344e url("img/intro-bg.jpg") center no-repeat;
+    background-size: cover;
+    */
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+
+
+    text-align: center;
+}
+.intro__inner h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.intro__inner h3{
+    font-size: 20px;
+    padding: 10px;
+}
+/* Button
+===================*/
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+
+    border-radius: 5px;
+    border: 10px;
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #e84545;
+}
+
+.btn--red:hover {
+    background-color: #dd3434;
+}
+/*.btn--long{*/
+/*    min-width: 280px;*/
+/*}*/
+
+/* Skills
+===================*/
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+}
+.skills_text{
+    text-align: center;
+    margin-bottom : 20px;
+    font-size: 14px;
+    color: #2d3033;
+    font-width: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.skills_item{
+    width: 33.33333%;
+    padding: 0 40px;
+    margin: 25px 0;
+    text-align: center;
+
+}
+.logo_img{
+    height: 80px;
+}
+
+.skills_title{
+    font-size: 50px;
+    color: #2d3033;
+    font-width: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 239px;
+}
+.footer{
+    background-color: #3a3e64;
+}
+.footer__inner{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    padding: 70px 0;
+}
+
+.footer__block{
+    width: 40%;
+    padding: 0 122px;
+    text-align: center;
+}
+.footer__title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.footer__address{
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255,255,255,.5);
+}
+
+.footer__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255,255,255,.5);
+
+}
+.social{
+    display: flex;
+}
+
+.social__footer{
+    justify-content: center;
+}
+
+.social__item{
+    display: flex;
+    border: 1px solid #e8ecee;
+
+    justify-content: center;
+    align-items:center;
+
+    width: 40px;
+    height: 40px;
+
+    margin-right: 4px;
+
+    transition: background .1s linear;
+}
+
+.social__item:hover{
+    background-color: #e8ecee;
+}
+
+.social__item:hover .social__icon {
+    fill: #000;
+}
+/*.social__footer social__item{*/
+/*    border-width: 2px;*/
+/*    border-color: #fff;*/
+/*    border-radius: 2px;*/
+/*}*/
+
+/*.social__footer .social__item:hover{*/
+/*    //background-color: #fff;*/
+/*}*/
+
+/*.social__footer .social__icon:hover{*/
+/*   // fill: #fff;*/
+/*}*/
+.social__icon{
+    display:block;
+    height: 18px;
+    fill: #c6cacc;
+
+  /*!/  transition: fill .1s linear;*!*!*/
+}
+
+
+
+
